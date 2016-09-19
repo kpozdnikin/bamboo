@@ -1,0 +1,32 @@
+{
+  "name": "Bambooptz",
+  "version": "0.1",
+  "homepage": "https://github.com/kpozdnikin/bamboo",
+  "authors": [
+    "kpozdnikin <kpozdnikin@gmail.com>"
+  ],
+  "description": "bamboo project",
+  "main": "bower.json",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bamboo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "jquery-ui": "*",
+    "angular": "*",
+    "angular-animate": "*",
+    "angular-cookies": "*",
+    "angular-ui-router": "*",
+    "angular-material":"*",
+    "angular-ui-mask":"*"
+  }
+}

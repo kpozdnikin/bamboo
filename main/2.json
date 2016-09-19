@@ -1,0 +1,76 @@
+{
+  "dishes": [
+    {
+      "id"              : "8",
+      "name"            : "Креветка салатная",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "70"
+    },
+    {
+      "id"              : "9",
+      "name"            : "Гребешок",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "70"
+    },
+    {
+      "id"              : "10",
+      "name"            : "Краб",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "100"
+    },
+    {
+      "id"              : "11",
+      "name"            : "Мидии",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "70"
+    },
+    {
+      "id"              : "12",
+      "name"            : "Тобико красная",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "70"
+    },
+    {
+      "id"              : "13",
+      "name"            : "Тобико зеленая",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "70"
+    },
+    {
+      "id"              : "15",
+      "name"            : "Икра красная",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "40",
+      "price"           : "100"
+    },
+    {
+      "id"              : "16",
+      "name"            : "Икра красная с сыром Филадельфия",
+      "description"     : "",
+      "categoryId"      : "2",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "120"
+    }
+  ]
+}

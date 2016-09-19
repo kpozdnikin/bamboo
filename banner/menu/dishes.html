@@ -1,0 +1,21 @@
+<md-list>
+    <md-list-item class="dishes-list"
+                  ng-repeat="(index, dish) in vm.dishes"
+                  ng-mouseleave="vm.hideToCart(index)"
+                  ng-mouseover="vm.showToCart(index)">
+        <img id="dish-{{ index }}" ng-src="/img/{{ dish.id }}.jpg" class="category-img" alt="{{dish.name}}">
+        <div class="category-text md-list-item-text">
+            <h3>{{ dish.name }}</h3>
+            <span class="weight">{{ dish.weight }}
+                <span data-ng-if="vm.categoryId != '14'">г.</span></span>
+                <span data-ng-if="vm.categoryId == '14'">мл.</span></span>
+            <span class="price">{{ dish.price }} р.</span>
+        </div>
+        <div data-ng-click="vm.moveToCart(index, $event)"
+             data-ng-class="(dish.display)?'to-cart-display':''" class="to-cart">
+            <a class="to-cart-icon">
+                <span>В корзину</span><i id="fa-cart-{{ dish.id }}" class="fa fa-3x fa-cart-arrow-down" aria-hidden="true"></i>
+            </a>
+        </div>
+    </md-list-item>
+</md-list>

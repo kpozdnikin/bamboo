@@ -1,0 +1,94 @@
+{
+  "dishes": [
+    {
+      "id"              : "102",
+      "name"            : "Эспрессо большой",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "60",
+      "price"           : "60"
+    },
+    {
+      "id"              : "103",
+      "name"            : "Эспрессо xxl",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "70",
+      "price"           : "70"
+    },
+    {
+      "id"              : "105",
+      "name"            : "Американо большой",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "200",
+      "price"           : "70"
+    },
+    {
+      "id"              : "106",
+      "name"            : "Американо xxl",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "80"
+    },
+    {
+      "id"              : "108",
+      "name"            : "Латте большой",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "300",
+      "price"           : "100"
+    },
+    {
+      "id"              : "109",
+      "name"            : "Латте xxl",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "400",
+      "price"           : "130"
+    },
+    {
+      "id"              : "111",
+      "name"            : "Капучино большой",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "300",
+      "price"           : "100"
+    },
+    {
+      "id"              : "112",
+      "name"            : "Капучино xxl",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "400",
+      "price"           : "130"
+    },
+    {
+      "id"              : "114",
+      "name"            : "Чай черный/зеленый большой",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "300",
+      "price"           : "50"
+    },
+    {
+      "id"              : "115",
+      "name"            : "Чай черный/зеленый xxl",
+      "description"     : "",
+      "categoryId"      : "14",
+      "img"             : "",
+      "weight"          : "400",
+      "price"           : "60"
+    }
+  ]
+}

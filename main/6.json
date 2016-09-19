@@ -1,0 +1,49 @@
+{
+  "dishes": [
+    {
+      "id"              : "40",
+      "name"            : "Рулет с лососем",
+      "description"     : "",
+      "categoryId"      : "6",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "150"
+    },
+    {
+      "id"              : "41",
+      "name"            : "Рулет с тунцом",
+      "description"     : "",
+      "categoryId"      : "6",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "150"
+    },
+    {
+      "id"              : "42",
+      "name"            : "Рулет с угрем",
+      "description"     : "",
+      "categoryId"      : "6",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "150"
+    },
+    {
+      "id"              : "43",
+      "name"            : "Рулет с креветкой тигровой",
+      "description"     : "",
+      "categoryId"      : "6",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "150"
+    },
+    {
+      "id"              : "44",
+      "name"            : "Рулет с копченым лососем",
+      "description"     : "",
+      "categoryId"      : "6",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "150"
+    }
+  ]
+}

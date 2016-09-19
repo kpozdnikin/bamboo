@@ -1,0 +1,10 @@
+<md-list>
+    <md-list-item ui-sref="banner.dish({ categoryId:category.id })" class="category-list"
+                  ng-repeat="category in vm.categories">
+        <img ui-sref="banner.dish({ categoryId:category.id })" ng-src="{{ category.img }}" class="category-img" alt="{{item.who}}">
+        <div class="category-text md-list-item-text">
+            <h3>{{ category.name }}</h3>
+            <p class="description">{{ category.description }}</p>
+        </div>
+    </md-list-item>
+</md-list>

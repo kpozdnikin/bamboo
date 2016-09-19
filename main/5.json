@@ -1,0 +1,40 @@
+{
+  "dishes": [
+    {
+      "id"              : "36",
+      "name"            : "Рулет с огурцом",
+      "description"     : "",
+      "categoryId"      : "5",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "100"
+    },
+    {
+      "id"              : "37",
+      "name"            : "Рулет с авокадо",
+      "description"     : "",
+      "categoryId"      : "5",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "100"
+    },
+    {
+      "id"              : "38",
+      "name"            : "Рулет с сладким перцем",
+      "description"     : "",
+      "categoryId"      : "5",
+      "img"             : "",
+      "weight"          : "120",
+      "price"           : "100"
+    },
+    {
+      "id"              : "39",
+      "name"            : "Рулет с огурцом и авокадо",
+      "description"     : "",
+      "categoryId"      : "5",
+      "img"             : "",
+      "weight"          : "170",
+      "price"           : "150"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "dishes": [
+    {
+      "id"              : "92",
+      "name"            : "Лапша Удон с курицей",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "300"
+    },
+    {
+      "id"              : "93",
+      "name"            : "Лапша Удон со свининой",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "300"
+    },
+    {
+      "id"              : "94",
+      "name"            : "Лапша Удон с индейкой",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "350"
+    },
+    {
+      "id"              : "95",
+      "name"            : "Лапша Удон с лососем",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "400"
+    },
+    {
+      "id"              : "96",
+      "name"            : "Лапша Удон с угрем",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "400"
+    },
+    {
+      "id"              : "97",
+      "name"            : "Лапша Удон с тунцом",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "400"
+    },
+    {
+      "id"              : "98",
+      "name"            : "Лапша Удон с мидиями",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "400"
+    },
+    {
+      "id"              : "99",
+      "name"            : "Лапша Удон с гребешком",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "450"
+    },
+    {
+      "id"              : "100",
+      "name"            : "Лапша Удон с креветкой тигровой",
+      "description"     : "",
+      "categoryId"      : "13",
+      "img"             : "",
+      "weight"          : "450",
+      "price"           : "450"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "bambooptz",
+  "version": "1.0.0",
+  "description":"Bambooptz",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "*",
+    "gulp-css-rebase-urls": "*",
+    "gulp-debug": "^2.1.2",
+    "gulp-linker": "^0.1.7",
+    "gulp-minify-css": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "ini": "*",
+    "merge-stream": "*",
+    "express": "*",
+    "serve-static":"*",
+    "css-select":"*",
+    "css-what":"*",
+    "path":"*",
+    "serve-favicon": "*",
+    "morgan": "*",
+    "method-override":"*",
+    "body-parser": "*",
+    "errorhandler": "*",
+    "express-session": "*",
+    "router":"*",
+    "node-gyp":"*",
+    "promised-io":"*",
+    "mssql":"",
+    "forever":"",
+    "request":"",
+    "q":"*",
+    "nodemailer":"*",
+    "email-templates":"*",
+    "nodemailer-sendmail-transport":"*",
+    "libmime":"",
+    "libqp":"",
+    "libbase64":"",
+    "nodemailer-fetch":"",
+    "mysql":""
+  },
+    "dependencies": {
+  }
+}

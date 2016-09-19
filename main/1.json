@@ -1,0 +1,67 @@
+{
+  "dishes": [
+    {
+      "id"              : "1",
+      "name"            : "Лосось",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "50"
+    },
+    {
+      "id"              : "2",
+      "name"            : "Тунец",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "60"
+    },
+    {
+      "id"              : "3",
+      "name"            : "Угорь",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "70"
+    },
+    {
+      "id"              : "4",
+      "name"            : "Креветка тигровая",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "60"
+    },
+    {
+      "id"              : "5",
+      "name"            : "Копченый лосось",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "60"
+    },
+    {
+      "id"              : "6",
+      "name"            : "Авокадо",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "40"
+    },
+    {
+      "id"              : "7",
+      "name"            : "Тофу",
+      "description"     : "",
+      "categoryId"      : "1",
+      "img"             : "",
+      "weight"          : "38",
+      "price"           : "40"
+    }
+  ]
+}

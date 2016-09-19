@@ -1,0 +1,94 @@
+{
+  "dishes": [
+    {
+      "id"              : "26",
+      "name"            : "Лосось",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "27",
+      "name"            : "Тунец",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "28",
+      "name"            : "Угорь",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "29",
+      "name"            : "Креветка тигровая",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "90"
+    },
+    {
+      "id"              : "30",
+      "name"            : "Креветка салатная",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "90"
+    },
+    {
+      "id"              : "31",
+      "name"            : "Копченый лосось",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "32",
+      "name"            : "Гребешок",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "33",
+      "name"            : "Мидии",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "34",
+      "name"            : "Краб",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "40",
+      "price"           : "120"
+    },
+    {
+      "id"              : "35",
+      "name"            : "Лосось и маринованный огурчик",
+      "description"     : "",
+      "categoryId"      : "4",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    }
+  ]
+}

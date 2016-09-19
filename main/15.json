@@ -1,0 +1,58 @@
+{
+  "dishes": [
+    {
+      "id"              : "116",
+      "name"            : "KOFF",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    },
+    {
+      "id"              : "117",
+      "name"            : "Hoslen",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    },
+    {
+      "id"              : "118",
+      "name"            : "Кулер",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    },
+    {
+      "id"              : "119",
+      "name"            : "Балтика 0",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    },
+    {
+      "id"              : "120",
+      "name"            : "Tuborg Green",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    },
+    {
+      "id"              : "121",
+      "name"            : "Балтика 7",
+      "description"     : "",
+      "categoryId"      : "15",
+      "img"             : "",
+      "weight"          : "0.5",
+      "price"           : "100"
+    }
+  ]
+}

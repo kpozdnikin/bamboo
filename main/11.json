@@ -1,0 +1,94 @@
+{
+  "dishes": [
+    {
+      "id"              : "76",
+      "name"            : "Мисо суп",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "220",
+      "price"           : "120"
+    },
+    {
+      "id"              : "77",
+      "name"            : "Мисо суп с лососем",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "170"
+    },
+    {
+      "id"              : "78",
+      "name"            : "Мисо суп с тунцом",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "170"
+    },
+    {
+      "id"              : "79",
+      "name"            : "Мисо суп с угрем",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    },
+    {
+      "id"              : "80",
+      "name"            : "Мисо суп с креветками",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    },
+    {
+      "id"              : "81",
+      "name"            : "Мисо суп с мидиями",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "170"
+    },
+    {
+      "id"              : "82",
+      "name"            : "Мисо суп с гребешком",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    },
+    {
+      "id"              : "83",
+      "name"            : "Мисо суп с лососем и сливками",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    },
+    {
+      "id"              : "84",
+      "name"            : "Мисо суп с угрем и сливками",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    },
+    {
+      "id"              : "85",
+      "name"            : "Мисо суп с креветкой и сливками",
+      "description"     : "",
+      "categoryId"      : "11",
+      "img"             : "",
+      "weight"          : "250",
+      "price"           : "200"
+    }
+  ]
+}

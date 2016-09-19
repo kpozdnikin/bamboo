@@ -1,0 +1,85 @@
+{
+  "dishes": [
+    {
+      "id"              : "17",
+      "name"            : "Лосось",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "18",
+      "name"            : "Тунец",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "19",
+      "name"            : "Угорь",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "20",
+      "name"            : "Креветка тигровая",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "90"
+    },
+    {
+      "id"              : "21",
+      "name"            : "Креветка салатная",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "90"
+    },
+    {
+      "id"              : "22",
+      "name"            : "Копченый лосось",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "23",
+      "name"            : "Гребешок",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "24",
+      "name"            : "Мидии",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "42",
+      "price"           : "80"
+    },
+    {
+      "id"              : "25",
+      "name"            : "Краб",
+      "description"     : "",
+      "categoryId"      : "3",
+      "img"             : "",
+      "weight"          : "40",
+      "price"           : "120"
+    }
+  ]
+}
