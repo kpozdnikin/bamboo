@@ -29,8 +29,10 @@ app.post('/nodeapi/contact', jsonParser, function (req, res) {
     var phone = req.body.phone.toString();
     var dishes = req.body.dishes;
     var totalAmount = req.body.totalAmount;
+    var referer = req.body.referer;
+    var delivery = req.body.delivery;
 
-    var dishTable = '<h3>Телефон: ' + phone + '</h3>' +
+    var dishTable = '<p>Источник: ' + referer + '</p><p>Доставка: ' + delivery + '</p><h3>Телефон: ' + phone + '</h3>' +
         '<table>' +
         '<thead>' +
             '<tr>' +

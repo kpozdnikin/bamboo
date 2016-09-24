@@ -39,6 +39,12 @@
                 })
             }
             cartStorage.totalAmount = totalAmount;
+            if(cartStorage.totalAmount <= 1000){
+                cartStorage.delivery = 100;
+            }
+            else{
+                cartStorage.delivery = 0;
+            }
             localStorage.setItem('cartStorage', JSON.stringify(cartStorage));
         }
 
@@ -59,7 +65,8 @@
                 dishes      : cartStorage.dishes,
                 clientId    : cartStorage.clientId,
                 totalAmount : cartStorage.totalAmount,
-                referer     : cartStorage.referer
+                referer     : cartStorage.referer,
+                delivery    : cartStorage.delivery
             }).then(function(resp){
                 if(resp && resp.data && resp.data != 'error')
                     return resp;

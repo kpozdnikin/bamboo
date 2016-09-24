@@ -17,7 +17,8 @@
                 phone           : null,
                 totalAmount     : 0,
                 clientId        : null,
-                referer         : null
+                referer         : null,
+                delivery        : null
         };
 
 

@@ -1,11 +1,12 @@
-<div id="banner-container" class="banner-container">
+<div data-ng-show="vm.showBanner" class="sample-show-hide banner-front" data-ng-mouseover="vm.showBanner = false;"><img src="/img/cat.gif"></div>
+<div data-ng-show="!vm.showBanner" id="banner-container" class="banner-container">
     <md-toolbar class="md-theme-light banner-header">
         <a data-ng-show="showBackButton"
            data-ui-sref="banner.categories"
            class="icon-pull-left">
             <i class="fa fa-chevron-left" aria-hidden="true"></i> Меню
         </a>
-        <img class="cart-logo" src="/img/logo.png">
+        <img class="cart-logo" src="/img/logo2.jpg">
         <a data-ng-show="cartStorage.dishes.length"
            data-ui-sref="banner.cart"
            class="icon-pull-right cart-icon">
@@ -21,6 +22,7 @@
         <div ui-view></div>
     </md-content>
     <footer class="banner-footer">
-        <a href="mailto:kpozdnikin@gmail.com">kpozdnikin@gmail.com</a>
+        <!--<a href="mailto:kpozdnikin@gmail.com">kpozdnikin@gmail.com</a>-->
+        <span>При заказе от 1000 рублей доставка бесплатно</span>
     </footer>
 </div>

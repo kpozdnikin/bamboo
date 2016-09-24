@@ -25,7 +25,9 @@
             <span class="item-amount"> = <strong>{{ item.price * item.count }} р.</strong></span>
         </div>
     </div>
-    <div class="total-amount" data-ng-if="cartStorage.totalAmount">Итого: <span>{{ cartStorage.totalAmount }} р.</span></div>
+    <div class="delivery">Стоимость заказа: <span>{{ cartStorage.totalAmount }}</span></div>
+    <div class="delivery" data-ng-if="cartStorage.delivery">Стоимость доставки: <span>{{ cartStorage.delivery }} р.</span></div>
+    <div class="total-amount" data-ng-if="cartStorage.totalAmount">Итого: <span>{{ cartStorage.totalAmount + cartStorage.delivery }} р.</span></div>
     <form class="cart-form">
         <label>Укажите номер телефона</label>
         <md-input-container class="input-phone md-block">

@@ -1,10 +1,10 @@
 .banner-container{
-    width:240px;
-    height: 500px;
+    width:237px;
+    height: 497px;
     overflow: hidden;
     display: block;
     font-family: "Century Gothic", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border: 1px solid #e0d9d9;
+    border: 1px solid rgba(129, 102, 92, 0.47);
 }
 .banner-container p{
     margin-bottom: 0;
@@ -30,15 +30,15 @@
     padding: 0 !important;
     width: 100%;
     cursor: pointer;
-    border-bottom: 1px solid #e0d9d9;
+    border-bottom: 1px solid rgba(129, 102, 92, 0.47);
     z-index:9;
 }
-/*.category-list:hover{
-    -webkit-box-shadow: 3px 0px 0px 3px #81665c;
-    -moz-box-shadow: 3px 0px 0px 3px #81665c;
-    box-shadow: 3px 0px 0px 3px #81665c;
+.category-list:hover{
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(129, 102, 92, 0.47);
+    -moz-box-shadow: 1px 1px 1px 1px rgba(129, 102, 92, 0.47);
+    box-shadow: 1px 1px 1px 1px rgba(129, 102, 92, 0.47);
 
-}*/
+}
 .dishes-list{
     padding: 0 !important;
     width: 100%;
@@ -238,7 +238,7 @@
     color:#42bd41;
 }
 .cart-form{
-    padding-left: 10px;
+    padding-left: 3px;
 }
 .fa-cart-clicked{
     color:red !important;
@@ -263,6 +263,9 @@
 .banner-footer a{
     color:#42bd41;
 }
+.banner-footer span{
+    font-size: 9px;
+}
 .input-phone{
     margin: 0 0 0 0;
 }
@@ -277,6 +280,9 @@
 }
 .weight, .price{
     font-size: 12px;
+}
+.delivery span{
+    font-weight: bold;
 }
 
 [ui-view].ng-enter, [ui-view].ng-leave {
@@ -315,4 +321,13 @@
     -webkit-transform:translate3d(100px, 0, 0);
     -moz-transform:translate3d(100px, 0, 0);
     transform:translate3d(100px, 0, 0);
+}
+.banner-front{
+}
+
+.sample-show-hide {
+    transition: all linear 0.3s;
+}
+.sample-show-hide.ng-hide {
+    opacity: 0;
 }

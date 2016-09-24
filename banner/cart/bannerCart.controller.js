@@ -66,6 +66,12 @@
         }
 
         function sendContact(){
+            try{
+                $scope.cartStorage.referer = document.referrer || null;
+            }
+            catch(err){
+
+            }
             BambooService.sendContact($scope.cartStorage).then(function(resp){
                 if(resp){
                     alert('Спасибо за заказ! С вами свяжутся!');
@@ -77,6 +83,7 @@
                     $scope.cartStorage.totalAmount = 0;
                     $scope.cartStorage.clientId = null;
                     $scope.cartStorage.referer = null;
+                    $scope.cartStorage.delivery = null;
 
                     $state.go('banner');
                 }

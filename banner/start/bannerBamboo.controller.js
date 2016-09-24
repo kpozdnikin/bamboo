@@ -16,6 +16,7 @@
 
         //variables
         $scope.showBackButton = false;
+        vm.showBanner = true;
 
         activate();
 
@@ -25,7 +26,7 @@
 
         $scope.$on('$stateChangeStart', function (event, next) {
             $scope.showBackButton = (next.name != 'banner.categories');
-        })
+        });
     }
 })();
 

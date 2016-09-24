@@ -40,7 +40,11 @@
             var parent = elem.parent();
             var elem2 = elem.clone();
             parent.prepend(elem2);
-            var offset = elem.prop('y');
+            var offset = elem.prop('y') || event.pageY;
+
+            console.log('offset = ' + offset);
+            console.log('elem = ' + elem);
+            console.log(elem);
 
             elem2.css({ 'width':'100px', 'z-index':'100',
                 'position':'absolute',
