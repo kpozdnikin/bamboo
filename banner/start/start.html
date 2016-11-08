@@ -1,5 +1,4 @@
-<div data-ng-show="vm.showBanner" class="sample-show-hide banner-front" data-ng-mouseover="vm.showBanner = false;"><img src="/img/cat.gif"></div>
-<div data-ng-show="!vm.showBanner" id="banner-container" class="banner-container">
+<div id="banner-container" class="banner-container">
     <md-toolbar class="md-theme-light banner-header">
         <a data-ng-show="showBackButton"
            data-ui-sref="banner.categories"
@@ -13,7 +12,7 @@
             <i id="cart-icon" class="fa fa-2x fa-cart-plus" aria-hidden="true"></i> {{ cartStorage.dishes.length }}
             <p data-ng-if="cartStorage.totalAmount">{{ cartStorage.totalAmount }} р.</p>
         </a>
-        <span class="banner-header-h2">Виджет для заказа суши</span>
+        <span class="banner-header-h2">Закажи суши прямо здесь!</span>
         <span class="cart-text"></span>
         <span class="cart"></span>
     </md-toolbar>

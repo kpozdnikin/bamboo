@@ -1,0 +1,38 @@
+<div layout="row">
+    <div id="categories-column" flex="25">
+        <md-list id="md-list">
+            <md-list-item class="category-list-site"
+                          ng-repeat="category in vm.categories"
+                          ng-click="vm.getDishes(category.id)">
+                <img ng-click="vm.getDishes(category.id)"
+                .g   ng-src="{{ category.img }}"
+                     class="category-img" alt="{{item.who}}">
+                <div class="category-text md-list-item-text">
+                    <h3><strong>{{ category.name }}</strong></h3>
+                    <p class="description">{{ category.description }}</p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </div>
+    <div flex="80" id="dishes-column">
+        <md-content>
+            <md-card class="dish-card" ng-repeat="(index, dish) in vm.dishes">
+                <img class="dish-card-image" alt="{{ dish.name }}" id="dish-card-image-{{ index }}" ng-src="/img/medium/{{ dish.id }}.jpg" alt="{{dish.name}}">
+                <div class="dish-content">
+                    <div class="dish-info">
+                        <h4 class="dish-name">{{ dish.name }}</h4>
+                        <span class="weight">{{ dish.weight }}
+                                <span data-ng-if="vm.categoryId != '14'">г.</span>
+                                <span data-ng-if="vm.categoryId == '14'">мл.</span>
+                            </span>
+                        <span class="price">{{ dish.price }} р.</span>
+                    </div>
+                    <div class="dish-action">
+                        <md-button ng-show="(dish.id < 102)" ng-click="vm.showMore($event, dish)">Подробнее</md-button>
+                        <md-button class="md-primary md-raised" ng-click="addToCart($event, index)">В корзину</md-button>
+                    </div>
+                </div>
+            </md-card>
+        </md-content>
+    </div>
+</div>

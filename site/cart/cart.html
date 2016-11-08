@@ -1,0 +1,51 @@
+<div id="cart-content">
+    <div id="cart-item-{{ index }}-{{ item.id }}"
+         class="cart-item"
+         ng-repeat="(index, item) in cartStorage.dishes track by $index">
+        <md-button ng-click="vm.deleteDish(index, item.id)"
+                   aria-label="delete"
+                   class="md-fab item-delete">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </md-button>
+        <span class="item-number">{{ index + 1 }}.</span> <strong>{{ item.name }}</strong>
+        <div class="cart-line">
+            <span class="item-price">{{ item.price }} р. X</span>
+            <span class="item-count">
+                <md-button ng-click="vm.minusDish($index)" class="btn count-btn">-</md-button>
+                <label for="input-{{ item.id }}" style="display:none"></label>
+                <input data-ng-change="vm.changeDish($index)"
+                       type="number"
+                       min="0"
+                       max="10"
+                       id="input-{{ item.id }}"
+                       class="count-input"
+                       ng-model="item.count">
+                <md-button ng-click="vm.plusDish($index)" class="btn count-btn">+</md-button>
+            </span>
+            <span class="item-amount"> = <strong>{{ item.price * item.count }} р.</strong></span>
+        </div>
+    </div>
+
+    <div class="delivery">Стоимость заказа: <span>{{ cartStorage.totalAmount }}</span></div>
+    <div class="delivery" data-ng-if="cartStorage.delivery">Стоимость доставки: <span>{{ cartStorage.delivery }} р.</span></div>
+    <div class="delivery" data-ng-if="cartStorage.totalAmount">Итого: <span>{{ cartStorage.totalAmount + cartStorage.delivery }} р.</span></div>
+
+    <form class="cart-form">
+        <label>Укажите номер телефона</label>
+        <md-input-container class="input-phone md-block">
+            <input data-ui-mask="+7-999-999-99-99"
+                   aria-label="phone"
+                   ng-model="cartStorage.phone"
+                   data-ui-options="{clearOnBlur:false, addDefaultPlaceholder:true}"
+                   type="text"/>
+        </md-input-container>
+
+        <md-button ng-click="vm.clearCart()"
+                   aria-label="clear"
+                   class="md-warn md-raised">Очистить</md-button>
+        <md-button ng-click="vm.sendContact()"
+                   aria-label="send"
+                   ng-disabled="!cartStorage.phone"
+                   class="md-primary md-raised">Отправить</md-button>
+    </form>
+</div>

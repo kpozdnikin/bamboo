@@ -23,13 +23,4 @@ function config($stateProvider, $urlRouterProvider, $locationProvider) {
             controllerAs: 'vm',
             title: 'bamboo/main'
         });
-
-   /* $urlRouterProvider.otherwise('/main');*/
-
-    /*resolveBanners.$inject = ['FrontService'];
-    function resolveBanners(FrontService){
-        return FrontService.getBanners().then(function(resp){
-            return resp.Offers;
-        });
-    }*/
 }

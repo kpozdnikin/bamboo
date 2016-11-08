@@ -15,11 +15,11 @@
     "start": ""
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "*",
     "gulp-concat": "*",
     "gulp-css-rebase-urls": "*",
-    "gulp-debug": "^2.1.2",
-    "gulp-linker": "^0.1.7",
+    "gulp-debug": "*",
+    "gulp-linker": "*",
     "gulp-minify-css": "*",
     "gulp-ruby-sass": "*",
     "gulp-rename": "*",

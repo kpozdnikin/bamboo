@@ -20,13 +20,13 @@
         return service;
 
         function getCategories(){
-            return $http.get('/main/categories.json').success(function(res){
+            return $http.get('/main/json/categories.json').success(function(res){
                     return res.categories;
             });
         }
 
         function getDishes(categoryId){
-            return $http.get('/main/' + categoryId + '.json').success(function(res){
+            return $http.get('/main/json/' + categoryId + '.json').success(function(res){
                 return res.dishes;
             });
         }

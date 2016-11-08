@@ -72,8 +72,8 @@ app.post('/nodeapi/contact', jsonParser, function (req, res) {
     dishTable = dishTable + '<p>Итого: ' + totalAmount + '</p>';
 
     var mailOptions = {
-        from: '"KarelInform" <kpozdnikin@gmail.com>', // sender address
-        to: 'kpozdnikin@gmail.com, hobbit137@ya.ru', // list of receivers
+        from: '"BambooBanner" <kpozdnikin@gmail.com>', // sender address hobbit137@ya.ru, shabanov.m.y@gmail.com
+        to: 'kpozdnikin@gmail.com', // list of receivers
         subject: "Заказ суши", // Subject line
         text: phone.toString(), // plaintext body
         html: '<b>' + dishTable + '</b>' // html body
@@ -88,7 +88,7 @@ app.post('/nodeapi/contact', jsonParser, function (req, res) {
      });
 });
 
-var server = app.listen(8090, function () {
+var server = app.listen(8085, function () {
 
     var host = server.address().address;
     var port = server.address().port;

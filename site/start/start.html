@@ -1,8 +1,45 @@
-<div class="container">
-    <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
-            <h4>Заказ суши</h4>
-            <p>Скоро вы сможете попробовать самые крутые и наивкуснейшие суши от шефа Андрея Кузминского <a href="https://vk.com/bamboo_ptz" target="_blank">Группа вконтакте</a>.</p>
+<div style="position:fixed; width:100%; top:0; left:0; bottom:0;" layout="column" ng-cloak>
+
+    <section class="top-section" ng-class="lightColor.selected">
+        <div class="logo-image-block">
+            <div layout="row">
+                <div flex="50">
+                    <img class="logo-image" src="/img/logo-main.png" alt="суши и ролл бар бамбук">
+                </div>
+                <div flex class="coordinates">
+                    <p class="phone" ><i class="fa fa-phone" aria-hidden="true"></i>
+                        63-16-33</p>
+                    <p class="address" ><i class="fa fa-home" aria-hidden="true"></i>
+                        ул. Максима Горького, 23</p>
+                    <div ng-if="!showBack">
+                        <md-button id="big-cart"
+                                   class="big-cart"
+                                   ng-disabled="!cartStorage.dishes.length"
+                                   ui-sref="site.cart">
+                            <span class="big-cart-text" ng-show="!cartStorage.dishes.length">Ваша корзина пуста</span>
+                            <span class="big-cart-text green-text" ng-show="cartStorage.dishes.length">Перейти в корзину</span>
+                            <i ng-class="(cartStorage.dishes.length)?'green-text':''" class="fa fa-2x fa-shopping-cart" aria-hidden="true"></i>
+                        </md-button>
+                        <span class="green-text" data-ng-if="cartStorage.totalAmount"><strong>{{ cartStorage.totalAmount }} р.</strong></span>
+                    </div>
+                    <div ng-if="showBack">
+                        <md-button class="big-cart" ui-sref="site.menu">
+                            <span class="big-cart-text green-text">В меню <i class="fa fa-arrow-left" aria-hidden="true"></i></span>
+                        </md-button>
+                        <span class="green-text" data-ng-if="cartStorage.totalAmount"><strong>{{ cartStorage.totalAmount }} р.</strong></span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section style="max-height: 550px">
+        <div ui-view></div>
+    </section>
+
 </div>
+
+<style>
+    .fabToolbardemoBasicUsage md-fab-toolbar.md-right md-fab-trigger.align-with-text {
+        left: 7px; }
+</style>
